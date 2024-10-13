@@ -1,6 +1,6 @@
 
 import { useDispatch, useSelector } from 'react-redux';
-import MoviePlayList from './components/moviePlaylist';
+import MoviePlayList from './components/MoviePlaylist';
 import SongPlaylist from './components/SongPlaylist';
 import { removeAllSongs} from "./features/songSlice";
 import {removeAllMovies} from "./features/movieSlice"
